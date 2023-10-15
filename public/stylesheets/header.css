@@ -1,0 +1,113 @@
+.header-links{
+    line-height: 3rem;
+}
+
+.header-links > li{
+    display: flex;
+}
+
+.header-links > li > a{
+    color: var(--ice-blue);
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.header-links > li > a:hover{
+    color: var(--twitter);
+}
+
+#title{
+    font-size: 4rem;
+ 
+    color: var(--ice-blue);
+}
+header{
+    background: var(--royal-blue);  /* fallback for old browsers */
+}
+
+.info > span{
+    color: var(--ice-blue);
+}
+.info > span > a{
+    color: var(--twitter);
+    font-weight: 600;
+}
+.shortner-link {
+    line-height: 3.2rem;
+    gap: .8rem;
+}
+
+.shortner-link input{
+    outline: none;
+    padding-left: 1rem;
+    width: 70%;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--ice-blue);
+}
+
+.shortner-link button{
+ 
+    gap: .8rem;
+}
+
+.shortner-link button {
+    font-size: 1.3rem;
+    background-color: var(--twitter);
+    border: none;
+    width: 30%;
+}
+
+.shortner-link button:hover{
+    background-color: var(--twitter);
+}
+.home-info p{
+    color: var(--ice-blue);
+}
+
+.home-info a{
+    color: var(--twitter);
+    font-weight: 600;
+}
+
+.home-info a:hover{
+    color: var(--twitter);
+}
+
+
+.url-link-container{
+    gap: 1rem;
+    margin: auto;
+    width: 45rem;
+   
+}
+
+.shortner-url-container{
+    justify-content: space-between;
+    background-color: var(--ice-blue);
+    border-radius: .3rem;
+    
+    padding: 4px 1rem;
+}
+
+.shortner-url-link > a{
+    font-weight: 600;
+    color: var(--twitter);
+}
+
+.shortner-url-link > a:hover{
+    color: var(--twitter);
+}
+
+.shortner-btns > button{   
+    border: none;
+    border-radius: .2rem;
+    background-color: transparent;
+    
+    
+}
+
+.shortner-btns >button:last-child{
+    color: var(--twitter);
+    font-weight: 600;
+}

@@ -1,0 +1,53 @@
+<header class="p-2 d-flex flex-column justify-content-center">
+    <%- include('../partials/nav'); %>
+    <%- include('../partials/logo'); %>
+
+    <div class="info text-center mt-4 mb-4">
+        <span >Linkzin é uma ferramenta gratuita para encurtar URLs desenvolvida por mim <a target="_blank" href="https://github.com/AndersonBones">AndersonBones</a>. 
+            <br>Crie links curtos e memoráveis ​​em segundos.</span>
+    </div>
+
+    <div class="url-link-container  d-inline-flex flex-column gap-2 justify-content-center">
+        <form class="shortner-link d-flex justify-content-center">
+            <input id="new-shortner-url"  type="text" name="url" placeholder="Cole o link aqui" required autocomplete="off">
+            <button id="btnNewShortner" class="btn-pri btn btn-primary d-flex flex-row justify-content-center align-items-center" type="submit">Encurtar</button>
+        </form>
+    
+        <div class="shortner-url-container d-inline-flex justify-content-space-around mt-4 align-items-center">
+            <div class="original-url d-flex gap-5">
+                <span class="mr-3">https://cssgradient.io/gradient-backgrounds/</span>
+            </div>
+    
+        
+            <div class="url-shortner-features d-flex align-items-center gap-3">
+                <div class="shortner-url-link ml-3">
+                    <a target="_blank" href="http://localhost:3000/">http://localhost:3000/</a>
+                </div>
+
+                <div class="shortner-btns d-flex gap-2">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" class="injected-svg Icon--sm v-middle"
+                        data-src="https://dashboard-cdn.rebrandly.com/styleguide-assets/icons/ic-qrcode.svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" fill="#909398"><g><g>
+                            <path d="M32 41v-2h3v5H23v-3h9zM4 24v-3h3v3H4zm20 0v-3h3v3h-3zM21 7V4h6v3h-6zm0 
+                            6v-3h6v3h-6zm0 6v-3h6v3h-6zm0-9V7h3v3h-3zm3 6v-3h3v3h-3zm9 11v-3h3v3h-3zm-3-3v-3h6v3h-6zm-9 6v-3h3v3h-3zm6
+                            0v-3h3v3h-3zm-3 3v-3h3v3h-3zm-3 3v-3h3v3h-3zm0 3v-3h6v3h-6zm6-3v-3h3v3h-3zm11 8v-3h3v3h-3zm3-3v-3h3v3h-3zm0-5v-3h3v3h-3zm0-12v-3h3v3h-3zm-3
+                            6v-3h3v3h-3zm-8 3v-3h11v3H30zm8-6v-3h6v3h-6zm-3 9v-3h3v3h-3zm0 3v-3h6v3h-6zM7 27v-3h3v3H7zm3-3v-3h6v3h-6zm3 3v-3h11v3H13zM7 7v8h8V7H7zm26
+                            0v8h8V7h-8zM7 33v8h8v-8H7zM18 4v14H4V4h14zm26 0v14H30V4h14zM18 30v14H4V30h14zm-8-20h2v2h-2v-2zm26 0h2v2h-2v-2zM10 36h2v2h-2v-2z">
+
+                            </path></g></g>
+                        </svg>
+                    </button>
+
+                    <button>Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <article class="home-info text-center mt-5 mb-5">
+        <p class="mb-3">O Encurtador de URL permite diminuir um link longo tornando-o fácil de lembrar</p>
+        <p>Após encurtar a URL, é possível saber <a class="link" href="/clicks">quantos cliques ela recebeu</a></p>
+    </article>
+</header>
